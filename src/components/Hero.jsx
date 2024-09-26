@@ -6,6 +6,7 @@ import maker from '../assets/client-maker.svg'
 
 const Hero = () => {
   return (
+<>
     <div className="flex flex-col-reverse lg:flex-row gap-2 ">
         <div className="flex flex-col mx-auto py-16 px-2 items-center lg:items-start justify-center">
                 <h1 className="text-3xl lg:text-7xl mb-10 font-bold">Make {<br/>}
@@ -31,6 +32,14 @@ const Hero = () => {
         </div>
 
     </div>
+
+<footer className='flex items-center justify-center text-xs mb-2 '>
+<p>project created by: </p>
+<a className='text-blue-800' href="https://www.linkedin.com/in/david-waweru-9040b7241/"> dev_david_waweru</a>
+</footer>
+
+
+</>
   )
 }
 
